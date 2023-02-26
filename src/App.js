@@ -1,9 +1,10 @@
 import React from "react";
+import HookCounter from "./components/HookCounter";
 
 function App() {
   return (
     <div>
-      App
+      <HookCounter />
     </div>
   );
 }
