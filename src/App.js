@@ -1,10 +1,10 @@
 import React from "react";
-import UseStateArray from "./components/UseStateArray";
+import EffectCounterOne from "./components/EffectCounterOne";
 
 function App() {
   return (
     <div>
-      <UseStateArray />
+      <EffectCounterOne />
     </div>
   );
 }
