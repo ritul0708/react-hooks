@@ -1,14 +1,10 @@
 import React from "react";
-import HookCounter from "./components/HookCounter";
-import HookCounterTwo from "./components/HookCounterTwo";
-import UseStateObject from "./components/UseStateObject";
+import UseStateArray from "./components/UseStateArray";
 
 function App() {
   return (
     <div>
-      {/* <HookCounter /> */}
-      {/* <HookCounterTwo /> */}
-      <UseStateObject />
+      <UseStateArray />
     </div>
   );
 }
