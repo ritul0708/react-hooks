@@ -1,10 +1,10 @@
 import React from "react";
-import EffectCounterOne from "./components/EffectCounterOne";
+import EffectCounterTwo from "./components/EffectCounterTwo";
 
 function App() {
   return (
     <div>
-      <EffectCounterOne />
+      <EffectCounterTwo />
     </div>
   );
 }
