@@ -1,10 +1,10 @@
 import React from "react"; 
-import EffectCleanUo from "./components/EffectCleanUo";
+import IntervalHookCounter from "./components/IntervalHookCounter";
 
 function App() {
   return (
     <div>
-      <EffectCleanUo />
+      <IntervalHookCounter />
     </div>
   );
 }
