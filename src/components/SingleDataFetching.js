@@ -4,9 +4,14 @@ import axios from 'axios';
 const DataFetching = () => {
   const [post, setPost] = useState({});
   const [id, setId] = useState(1);
+  const [idFromButton, SetIdFromButton] = useState(1);
+
+  const handleClick = () => {
+    SetIdFromButton(id)
+  }
 
   useEffect(() => {
-    axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`)
+    axios.get(`https://jsonplaceholder.typicode.com/posts/${idFromButton}`)
       .then(res => {
         console.log(res)
         setPost(res.data)
@@ -14,11 +19,12 @@ const DataFetching = () => {
       .catch(err => {
         console.log(err)
       })
-  }, [id])   // we can't go with empty dependency array, otherwise post will not change
+  }, [idFromButton])   // we can't go with empty dependency array, otherwise post will not change
 
   return (
     <div>
       <input type="number" value={id} onChange={e => setId(e.target.value)} />
+      <button onClick={handleClick}>Fetch Data</button>
       <div>
         {post.title}
       </div>
