@@ -1,10 +1,17 @@
 import React from "react"; 
-import SingleDataFetching from "./components/SingleDataFetching";
+import ComponentA from "./components/context/ComponentA";
+
+export const UserContext = React.createContext();
+export const ChannelContext = React.createContext();
 
 function App() {
   return (
     <div>
-      <SingleDataFetching />
+      <UserContext.Provider value={'ritul'}>
+        <ChannelContext.Provider value={'raect learning'}>
+          <ComponentA />
+        </ChannelContext.Provider>
+      </UserContext.Provider>
     </div>
   );
 }
