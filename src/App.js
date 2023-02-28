@@ -1,10 +1,10 @@
 import React from "react"; 
-import DataFetching from "./components/DataFetching";
+import SingleDataFetching from "./components/SingleDataFetching";
 
 function App() {
   return (
     <div>
-      <DataFetching />
+      <SingleDataFetching />
     </div>
   );
 }
