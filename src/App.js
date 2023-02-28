@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <UserContext.Provider value={'ritul'}>
-        <ChannelContext.Provider value={'raect learning'}>
+        <ChannelContext.Provider value={'react learning'}>
           <ComponentA />
         </ChannelContext.Provider>
       </UserContext.Provider>
