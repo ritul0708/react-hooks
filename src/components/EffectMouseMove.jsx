@@ -15,6 +15,17 @@ const EffectMouseMove = () => {
   useEffect(() => {
     console.log("useEffect called");
     window.addEventListener("mousemove", logMousePosition);
+
+
+    // ------ related to cleanup ------- //
+    return (() => {
+      console.log("cleanup called");
+      window.removeEventListener('mousemove', logMousePosition);
+    })
+
+    // ------ related to cleanup ------- //
+
+
   }, [])       //passing empty dependency array
 
   return (

@@ -1,10 +1,10 @@
 import React from "react"; 
-import EffectMouseMove from "./components/EffectMouseMove";
+import EffectCleanUo from "./components/EffectCleanUo";
 
 function App() {
   return (
     <div>
-      <EffectMouseMove />
+      <EffectCleanUo />
     </div>
   );
 }
