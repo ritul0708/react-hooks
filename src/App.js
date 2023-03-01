@@ -1,10 +1,10 @@
 import React from "react"; 
-import CounterTwo from "./components/reducer/CounterTwo";
+import CounterThree from "./components/reducer/CounterThree";
 
 const App = () => {
   return (
     <div>
-      <CounterTwo />
+      <CounterThree />
     </div>
   )
 }
