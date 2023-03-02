@@ -1,10 +1,10 @@
 import React from "react"; 
-import DataFetching from "./components/reducer/DataFetching";
+import ParentComponent from "./components/callback/ParentComponent";
 
 const App = () => {
   return (
     <div>
-      <DataFetching />
+      <ParentComponent />
     </div>
   )
 }
