@@ -1,10 +1,12 @@
 import React from "react"; 
-import Timer from "./components/ref/Timer";
+import DocTitleOne from "./components/customHooks/DocTitleOne";
+import DocTitleTwo from "./components/customHooks/DocTitleTwo";
 
 const App = () => {
   return (
     <div>
-      <Timer />
+      <DocTitleOne />
+      <DocTitleTwo />
     </div>
   )
 }
