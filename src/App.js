@@ -1,10 +1,10 @@
 import React from "react"; 
-import FocusInput from "./components/ref/FocusInput";
+import Timer from "./components/ref/Timer";
 
 const App = () => {
   return (
     <div>
-      <FocusInput />
+      <Timer />
     </div>
   )
 }
