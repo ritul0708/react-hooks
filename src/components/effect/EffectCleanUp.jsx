@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import EffectMouseMove from './EffectMouseMove';
 
-const EffectCleanUo = () => {
+const EffectCleanUp = () => {
   const [display, setDisplsy] = useState(true);
 
   // after clicking on toggle button mouse event also rendering 
@@ -17,4 +17,4 @@ const EffectCleanUo = () => {
   )
 }
 
-export default EffectCleanUo
+export default EffectCleanUp
